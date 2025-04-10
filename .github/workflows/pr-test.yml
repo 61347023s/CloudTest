@@ -23,5 +23,5 @@ jobs:
 
     - name: Install pandas
       run: |
-        pip install pandas''
+        pip install icecream123
 
