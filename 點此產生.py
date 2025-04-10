@@ -2,7 +2,7 @@
 from time import sleep
 from function import coding,tomorrow,read_file,get_info
 print('done')
-print('pull')
+
 try:
     #2 讀取當日課表
     all=[]
