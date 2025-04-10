@@ -1,7 +1,7 @@
 #1 引入套件
 from time import sleep
 from function import coding,tomorrow,read_file,get_info
-#123
+#12
 try:
     #2 讀取當日課表
     all=[]
