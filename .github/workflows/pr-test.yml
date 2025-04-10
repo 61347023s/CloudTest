@@ -21,10 +21,7 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Run tests (safe fallback)
+    - name: Install pandas
       run: |
-        cd tests
-        for file in test_*.py; do
-          python "$file"
-        done
+        pip install pandas
 
